@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C1693E7219D1ACE00897260 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
-		4C291DC31E08E01C00507A53 /* IHKeyboardAvoiding.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IHKeyboardAvoiding.podspec; path = ../../IHKeyboardAvoiding.podspec; sourceTree = "<group>"; };
+		4C1693E7219D1ACE00897260 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C291DC31E08E01C00507A53 /* IHKeyboardAvoiding.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IHKeyboardAvoiding.podspec; path = ../IHKeyboardAvoiding.podspec; sourceTree = "<group>"; };
 		4C572D561E08C79F00BCBD99 /* KeyboardAvoiding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardAvoiding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C572D591E08C79F00BCBD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C572D5B1E08C79F00BCBD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 				4C572D6E1E08CC6F00BCBD99 /* KeyboardDismissingView.swift */,
 			);
 			name = Sources;
-			path = ../../Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +117,6 @@
 				TargetAttributes = {
 					4C572D551E08C79F00BCBD99 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2E23KCX8SU;
 						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 					};
@@ -308,9 +307,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 2E23KCX8SU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KeyboardAvoiding/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IHA.KeyboardAvoiding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -324,9 +323,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 2E23KCX8SU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KeyboardAvoiding/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IHA.KeyboardAvoiding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
