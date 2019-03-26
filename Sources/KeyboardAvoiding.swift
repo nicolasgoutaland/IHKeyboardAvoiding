@@ -26,7 +26,7 @@ import UIKit
     
     public private(set) static var isKeyboardVisible = false
     public static var buffer: CGFloat = 0.0
-    public static var paddingForCurrentAvoidingView: CGFloat = 0.0
+    @objc public static var paddingForCurrentAvoidingView: CGFloat = 0.0
     @objc public static var padding: CGFloat = 0.0 {
         willSet {
             if self.paddingForCurrentAvoidingView == newValue {
@@ -267,17 +267,17 @@ import UIKit
         }
     }
     
-    public class func addTriggerView(_ triggerView: UIView) {
+    @objc public class func addTriggerView(_ triggerView: UIView) {
         self.triggerViews.append(triggerView)
     }
     
-    public class func removeTriggerView(_ triggerView: UIView) {
+    @objc public class func removeTriggerView(_ triggerView: UIView) {
         if let index = triggerViews.index(of: triggerView) {
             self.triggerViews.remove(at: index)
         }
     }
     
-    public class func removeAll() {
+    @objc public class func removeAll() {
         self.triggerViews.removeAll()
         self.avoidingView = nil
         self.avoidingBlock = nil
